@@ -9,8 +9,8 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">WenCheng Lin </span>
-            from <span className="purple"> Singapore.</span>
-            <br />I am a senior developer.
+            from <span className="purple"> Oakland, CA.</span>
+            <br />I am a fullstack developer.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!

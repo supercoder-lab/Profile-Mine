@@ -20,17 +20,17 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with coding and I have learnt and worked most of time for Start up companies as a senior developer🤷‍♂️
+              I fell in love with coding and I have learnt and worked most of time for Start up companies as a fullstack developer🤷‍♂️
               <br />
               <br />I am fluent in
               <i>
-                <b className="purple"> C#, ASP.NET MVC, ASP.NET Core, Unity, Python, React and Node.js. </b>
+                <b className="purple"> Javascript, Typescript, React.js and Node.js. </b>
               </i>
               <br />
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="purple">Web applications, Unity 2D and 3D games </b> and
+                <b className="purple">Web applications, products </b> and
                 also in areas related to{" "}
                 <b className="purple">
                   problem solving and bug fix.
@@ -90,7 +90,7 @@ function Home2() {
               
               <li className="social-icons">
                 <a
-                  href="https://join.skype.com/uuNVigGVhA3r"
+                  href="https://join.skype.com/yhRCCgxtdXq8"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
@@ -102,7 +102,7 @@ function Home2() {
 
               <li className="social-icons">
                 <a
-                  href="mailto:cryptoloverdev29@gmail.com"
+                  href="mailto:wenchenglin29@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
