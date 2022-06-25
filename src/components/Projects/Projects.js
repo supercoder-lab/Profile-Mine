@@ -2,9 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import nftmint from "../../Assets/Projects/nftmint.png";
+import arootah from "../../Assets/Projects/1.jpg";
 import swap from "../../Assets/Projects/real-estate.png";
-import unity2dfight from "../../Assets/Projects/unity2d_4.png";
+import visualized from "../../Assets/Projects/2.jpg";
 import unity3dracing from "../../Assets/Projects/unity3d_racing.png";
 import unity3danimal from "../../Assets/Projects/unity3d_squirrel.png";
 
@@ -22,10 +22,10 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={nftmint}
+              imgPath={arootah}
               isBlog={false}
-              title="NFT Mint"
-              description="NFT mint website which users can mint nfts. It was built with React, ERC721 smart contract."              
+              title="Next.js Website"
+              description= "A marketplace for the travel industry similar to Fiverr. Buyers can obtain information and travel related services from sellers. A typical e-commerce based system for generating revenue."           
             />
           </Col>
 
@@ -40,10 +40,10 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={unity2dfight}
+              imgPath={visualized}
               isBlog={false}
-              title="Unity2D Game"
-              description="Unity2D card game. Players can get higher score from their playing and enjoy the time."
+              title="Visualized(React | Node)"
+              description="My solution for the virtual staging of the property helps increase enquiries by an average of 75%. Most home sellers and agents know that furnished and decorated apartments help buyers visualize their future homes. Brokers rely on our online solution because it allows them to test the market, attract the attention of prospective buyers, and save money through bypassing purchasing actual furniture. Visualized allows both buyers and sellers to appreciate the true value of a vacant property, including its room dimensions, room sizes and outdoor space."
             />
           </Col>
 
