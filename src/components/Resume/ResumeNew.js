@@ -10,8 +10,17 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
-  const [numPages, setNumPages] = useState(1);
+  const [numPages, setNumPages] = useState(3);
   const [pageNumber, setPageNumber] = useState(1);
+
+  function onDocumentLoadSuccess({numPages}){
+    setNumPages(numPages);
+  }
+
+  function nextPage(){
+    if(pageNumber >= 3 ) setPageNumber(1);
+    else setPageNumber(pageNumber + 1);
+  }
 
   useEffect(() => {
     setWidth(window.innerWidth);
@@ -34,7 +43,7 @@ function ResumeNew() {
         </Row>
 
         <Row className="resume">
-          <Document file={pdf} className="d-flex justify-content-center">
+          <Document file={pdf} className="d-flex justify-content-center" onLoadSuccess={onDocumentLoadSuccess}>
             <Page pageNumber={pageNumber} scale={width > 786 ? 1.7 : 0.6} />
           </Document>
           <p>
@@ -42,7 +51,15 @@ function ResumeNew() {
           </p>
         </Row>
 
-        
+        <Row style={{justifyContent: "center", position:"relative"}}>
+          <Button
+          variant="primary"
+          style={{maxWidth: "100x"}}
+          onClick={nextPage}
+          >
+            Next
+          </Button>
+        </Row>
 
       </Container>
     </div>
