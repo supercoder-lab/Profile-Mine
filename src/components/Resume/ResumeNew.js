@@ -51,11 +51,11 @@ function ResumeNew() {
           </p>
         </Row>
 
-        <Row style={{justifyContent: "center", position:"relative"}}>
+        <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
-          variant="primary"
-          style={{maxWidth: "100x"}}
-          onClick={nextPage}
+            variant="primary"
+            style={{ maxWidth: "100px"}}
+            onClick={nextPage}
           >
             Next
           </Button>
