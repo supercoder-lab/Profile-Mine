@@ -47,23 +47,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={unity3dracing}
-              isBlog={false}
-              title="Unity3D Racing"
-              description="Unity3D fan game. Using own custom assets, Implementing complex logic. "
-            />
-          </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={unity3danimal}
-              isBlog={false}
-              title="Unity3D SQUIRREL"
-              description="Unity3D Animal Fan Game. Enjoying with animals like the real world."
-            />
-          </Col>
 
         </Row>
       </Container>
