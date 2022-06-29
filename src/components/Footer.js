@@ -58,7 +58,7 @@ function Footer() {
            
             <li className="social-icons">
               <a
-                href="https://join.skype.com/yhRCCgxtdXq8"
+                href="https://join.skype.com/FPwYFammhneN"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -68,7 +68,7 @@ function Footer() {
             </li>
             <li className="social-icons">
                 <a
-                  href="mailto:wenchenglin29@gmail.com"
+                  href="mailto:grahammarshalldev@gmail.com"
                   style={{ color: "white" }}
                   target="_blank" 
                   rel="noopener noreferrer"

@@ -90,7 +90,7 @@ function Home2() {
               
               <li className="social-icons">
                 <a
-                  href="https://join.skype.com/yhRCCgxtdXq8"
+                  href="https://join.skype.com/FPwYFammhneN"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
@@ -102,7 +102,7 @@ function Home2() {
 
               <li className="social-icons">
                 <a
-                  href="mailto:wenchenglin29@gmail.com"
+                  href="mailto:grahammarshalldev@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
