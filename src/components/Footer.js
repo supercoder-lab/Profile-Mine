@@ -25,7 +25,7 @@ function Footer() {
 
             <li className="social-icons">
               <a
-                href="https://angel.co/u/wencheng-lin"
+                href="https://angel.co/u/graham-marshall29"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"

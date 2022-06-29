@@ -57,7 +57,7 @@ function Home2() {
 
             <li className="social-icons">
                 <a
-                  href="https://angel.co/u/wencheng-lin"
+                  href="https://angel.co/u/graham-marshall29"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
