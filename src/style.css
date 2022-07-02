@@ -266,7 +266,7 @@ button:focus {
 
 .home-content {
   padding: 9rem 0 2rem !important;
-  color: whitesmoke;
+  color: rgb(235, 235, 230);
   text-align: left;
 }
 
@@ -611,7 +611,7 @@ button:focus {
 
 .resume {
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
   justify-content: center;
 }
 

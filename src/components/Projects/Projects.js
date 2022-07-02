@@ -3,10 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import arootah from "../../Assets/Projects/1.jpg";
-import swap from "../../Assets/Projects/real-estate.png";
+import real_estate from "../../Assets/Projects/real-estate.png";
 import visualized from "../../Assets/Projects/2.jpg";
-import unity3dracing from "../../Assets/Projects/unity3d_racing.png";
-import unity3danimal from "../../Assets/Projects/unity3d_squirrel.png";
 
 function Projects() {
   return (
@@ -24,14 +22,14 @@ function Projects() {
             <ProjectCard
               imgPath={arootah}
               isBlog={false}
-              title="Next.js Website"
+              title="Marketplace"
               description= "A marketplace for the travel industry similar to Fiverr. Buyers can obtain information and travel related services from sellers. A typical e-commerce based system for generating revenue."           
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={swap}
+              imgPath={real_estate}
               isBlog={false}
               title="Real Estate Platform"
               description="Real estate is an integral part of the company of any country. Client demand a web application where an end user could sale/rent properties on-the-go."

@@ -54,7 +54,7 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            style={{ maxWidth: "100px"}}
+            style={{ maxWidth: "250px", marginBottom: "50px"}}
             onClick={nextPage}
           >
             Next
